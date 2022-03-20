@@ -1,0 +1,45 @@
+<html>
+      <head>
+<title>Aku Suka Kamu</title>
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Jadi kita pacaran nih yaa, hehe")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+      </head>
+           <body>
+<h1>Halo Ahya Ad Dinar Rahmah, Aku mau Confess walau kesan nya mendadak tapi yaa..<h1>
+<img alt="Love" src="https://javasiana.com/wp-content/uploads/2021/08/pngfind.com-png-effects-for-photoscape-6435293.png" height="200" width="200"/>
+<h2>Ahya Mmau jadi Pacarku?</h2>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" YA " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" TIDAK " onMouseOver="f()" />
+</div>
+          </body>
+</html>
